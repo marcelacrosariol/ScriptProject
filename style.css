@@ -1,0 +1,91 @@
+body{
+    background-image: url("img/footprint.jpg");
+    background-repeat: repeat;
+
+}
+
+.menu ul{
+    list-style:none;
+    background-color: #d8b2d8;
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.menu li{
+    width: 15%;
+    width: 20%;
+    position:relative;
+    float:left;
+}
+
+.menu li a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 10px;
+    display:block;}
+
+.menu li a:hover{
+    background:#f2e5f2;
+    color:#000000;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#d8b2d8;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    display:block;
+    width:150px;
+}
+
+.logo{
+    padding:5px 10px;
+    float: left;
+    background-color: white;
+}
+
+.content{
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+.content p{
+    float: right;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 5px 5px;
+}
+
+.content a{
+    text-align: center;
+}
+
+h1{
+    color: #d8b2d8;
+    text-align: center;
+}
+#dog{
+    width: 50%;
+    height: 70%;
+    float:left;
+
+}
+
+.footer{
+    background-color: white;
+    float: left;
+}
+
+.footer p{
+   text-align: center;
+}
