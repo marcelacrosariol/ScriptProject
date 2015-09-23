@@ -1,0 +1,14 @@
+body{
+  background-image: url("../img/bg/004.jpg");
+}
+
+.col-md-11{
+    margin: 0.3% 1% ;
+    width: 98%;
+    background-color: #e8e8e8;
+}
+
+.col-md-11 p img {
+    width: 70px;
+    height: 70px;
+}
